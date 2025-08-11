@@ -1,0 +1,46 @@
+*{
+    font: "Roboto";
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    padding:0;
+}
+
+.header{
+    font-size: 24px;
+    color:#F9FaF8;
+    background-color:#1F2937;
+    display:flex;
+}
+
+ul{
+    display:flex;
+    list-style: none;
+    margin:0;
+    padding:0;
+    gap: 8px;
+}
+
+.main{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.container.one{
+    background-color: #1F2937;
+}
+
+.container.two{
+    background-color: #FFFFFF;
+}
+
+.container.three{
+    background-color: #E5E7EB;
+}
+
+.container.four{
+    background-color: #1F2937;
+}

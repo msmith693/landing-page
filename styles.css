@@ -1,11 +1,12 @@
 *{
-    font: "Roboto";
+    font: "Roboto";  /*look up how to include fonts not inherently recognised by css*/
+    /* background-color: #000000; */
 }
 
 body{
     display:flex;
     flex-direction: column;
-    padding:0;
+    flex: content;
 }
 
 .header{
@@ -15,7 +16,12 @@ body{
     display:flex;
 }
 
+.header-link{
+    color: #E5E7EB; 
+}
+
 ul{
+    font-size: 18px;
     display:flex;
     list-style: none;
     margin:0;
@@ -26,21 +32,84 @@ ul{
 .main{
     display:flex;
     flex-direction: column;
-    
+    justify-content: space-between;
+        
 }
 
-.container.one{
+.container .one{
     background-color: #1F2937;
+    display: flex;
 }
 
-.container.two{
+.info{
+    background-color: #1F2937;
+    /* margin:50px; */
+    display:flex;
+    flex-direction: column;
+}
+
+.hero-main{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+
+}
+
+.hero-sub{
+    font-size:18px;
+    color: #E5E7EB;
+}
+
+.flower{
+    max-width: 200px;
+    max-height:200px;
+}
+.container .two{
     background-color: #FFFFFF;
+    display: flex;
+    flex-basis: 0%;
 }
 
-.container.three{
-    background-color: #E5E7EB;
+.container .three{
+    background-color: #E5E7EB;  
+    display: flex;  
+    flex-direction: column;
+    padding: 60px;
+    justify-content: center;
+    flex:1;
+
 }
 
-.container.four{
-    background-color: #1F2937;
+.container .four{
+    background-color: #3882F6;
+    display:flex;
+    margin:50px;
+    flex-basis: 0%;
+}
+
+.text{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.main-text{
+    color: #F9FAF8;
+    font-size:20px;
+    font-weight: 900;
+}
+
+.sub-text{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.footer{
+    background-color:#1F2937;
+    text-align: center;
+    color: #E5E7EB;
 }

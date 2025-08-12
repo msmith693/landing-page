@@ -3,13 +3,13 @@ A simple landing page for a website or portfolio. Practicing flexbox skills.
 
 ## Challenges
 
-Apart from syntax errors (that wre quickly pointed out when ran through the [W3C HTML validator](https://validator.w3.org/)), the main difficulty was formatting the images and making sure they were not too distorted. 
+Apart from syntax errors (that were quickly pointed out when ran through the [W3C HTML validator](https://validator.w3.org/)), the main difficulty was formatting the images and making sure they were not too distorted. 
 
-To stop them becoming distorted when the web page is narrowed, I implemented a min-width property for the whole page, meaning that if the page was to get too narrow, it would have to be scrolled along. This maintained the dimensions of the images at an acceptable level.
+To stop them becoming distorted when the web page is narrowed, I implemented a min-width property for the whole page, meaning that if the page was to get too narrow it would have to be scrolled along. This maintained the dimensions of the images at an acceptable level.
 
 ## Credit
 
-This project was created by use of a template knowingly provided by [The Odin Project](https://www.theodinproject.com/lessons/foundations-landing-page)
+This project was created by use of a template knowingly provided by [The Odin Project](https://www.theodinproject.com/lessons/foundations-landing-page).
 
 The font style, text, weight and all colours were taken from a page provided by The Odin Project specifically for this use. This page serves as a learning tool-focusing on the use of flexbox in CSS.
 
@@ -17,7 +17,7 @@ The font style, text, weight and all colours were taken from a page provided by 
 
 The images have Creative Commons licensing, and are listed here:
 
--[Flowers]( https://www.google.com/url?sa=i&url=https%3A%2F%2Ffreerangestock.com%2Fphotos%2F156279%2Fa-close-up-of-flowers.html&psig=AOvVaw3EpPPtwt1iMM6QuPRdMHyL&ust=1755050437682000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCOj17tqWhI8DFQAAAAAdAAAAABAL
+- [Flowers]( https://www.google.com/url?sa=i&url=https%3A%2F%2Ffreerangestock.com%2Fphotos%2F156279%2Fa-close-up-of-flowers.html&psig=AOvVaw3EpPPtwt1iMM6QuPRdMHyL&ust=1755050437682000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCOj17tqWhI8DFQAAAAAdAAAAABAL
 )
 - [Beach](https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.freeimageslive.co.uk%2Ffree_stock_image%2Fsunset-frees-jpg&psig=AOvVaw1EFO_Y0uT9F83g1_qDF09i&ust=1755050746267000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCKD-_NSXhI8DFQAAAAAdAAAAABAE
 )
